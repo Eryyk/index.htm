@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Monotype Corsiva";
+            margin: 0;
+            padding: 0; 
+        }
+
+        .topo {
+            width: 1366px;
+            height: 50px;
+            background: #0A6622;
+            margin: 0 auto;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding-top: 11px;
+        }
+
+        .menu li {
+            display: inline;
+            margin: 0 60px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px 10px 50px;
+            font-size: 30px;
+
+        }
+
+
+
+        .conteudo {
+            width: 1366px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .banner {
+            width: 1366px;
+            height: 512px;
+            background: url('imagens/Ativo 1.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .banner img {
+            margin: 0 auto;
+            display: block;
+            transform: translateY(-40px);
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        h2 {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+
+        h4 {
+            font-size: 45px;
+        }
+
+        h5 {
+            font-size: 24px;
+        }
+
+        h6 {
+            font-size: 18px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 800;
+        }
+
+        .cardapio-produtos-item h3 {
+            font-size: 40px;
+        }
+
+        .cardapio-produtos-item img {
+            height: 600px;
+            width: 380px;
+        }
+
+        .cardapio-produtos-item p {
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .cardapio-imagem {
+            display: inline-block;
+            width: 400px;
+        }
+
+
+        .cardapio-ingredientes {
+            display: inline-block;
+            font-size: 24px;
+            margin-left: 26px;
+        }
+
+
+
+        #produtos {
+            width: auto;
+        }
+
+        .cardapio {
+            width: auto;
+
+
+        }
+
+        .cardapio-produtos-item {
+            background-color: #0A6622;
+            color: white;
+            float: left;
+            margin-top: -20px;
+            padding: 30px;
+            width: 455px;
+            text-align: center;
+        }
+
+
+        .quebra .quadrado {
+            background-color: white;
+            height: 18px;
+        }
+
+        .quebra .circulo {
+            background-color: white;
+            height: 64px;
+            width: 84px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: -40px;
+            z-index: 999999;
+            position: relative;
+        }
+
+        #roda_pé {
+            background-color: #850D23;
+            height: 400px;
+            width: 1366px;
+            margin-top: -15px;
+            padding: 24px;
+            float: left;
+            color: white;
+
+        }
+
+        .informações-roda_pé-item {
+            float: left;
+            margin: 0px 40px 0px 0px;
+        }
+
+        .ma-r {
+            margin-left: 235px;
+        }
+
+        .ma-r-m {
+            margin-left: 350px;
+        }
+
+        .redes-sociais {
+            display: inline-block;
+            margin: -50px 0px 150px 0px;
+
+        }
+
+        .cardapio_text {
+            text-align: left;
+            transform: translateY(-70px) translateX(270px);
+        }
+
+        .cardapio_text img {
+            height: 30px;
+            width: 50px;
+            transform: translateX(20px);
+
+        }
+
+        .cardapio_text a {
+            text-decoration: none;
+        }
+        .login{
+            
+            padding-top: 19px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: #05350E;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header class="topo">
+        <nav class="menu">
+
+            <ul>
+                <li>
+                    <a href="index.html">ESPRANZA</a>
+                </li>
+                <li>
+                    <a href="#">PROMOÇÕES</a>
+                </li>
+                <li>
+                    <a href="#">CONTATO</a>
+                </li>
+                <li class="login">
+                    <img src="imagens/Ativo 9.png" alt="login" style="width: 25px; height: 25px; display: inline; transform: scale(1.5)">
+                    <a href="#" style="padding:10px;">LOGIN</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <div class="banner">
+
+            <img src="imagens/Ativo 6.png" alt="Logotipo da pazzaria esparanza">
+        </div>
+        <div class="quebra">
+            <div class="quadrado"></div>
+            <div class="circulo"></div>
+        </div>
+        <section id="produtos">
+
+            <div id="cardapio">
+                <div class="cardapio-produtos-item">
+                    <h3>PIZZAS</h3>
+                    <img src="imagens/Ativo 2.png">
+                    <div class="cardapio_text">
+                        <a href="#">
+                            <p>CARDÁPIO</p>
+                            <img src="imagens/Ativo 12.png" alt="Ir para o cardapio">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardapio-produtos-item">
+                <h3>BEBIDAS</h3>
+                <img src="imagens/Ativo 3.png">
+                <div class="cardapio_text">
+                    <a href="#">
+                        <p>CARDÁPIO</p>
+                        <img src="imagens/Ativo 12.png" alt="Ir para o cardapio">
+                    </a>
+                </div>
+            </div>
+            <div class="cardapio-produtos-item">
+                <h3>SOBREMESAS</h3>
+                <img src="imagens/Ativo 4.png">
+                <div class="cardapio_text">
+                    <a href="#">
+                        <p>CARDÁPIO</p>
+                        <img src="imagens/Ativo 12.png" alt="Ir para o cardapio">
+                    </a>
+                </div>
+            </div>
+            <span style="clear: both; display: block"></span>
+            </div>
+            <div class="quebra">
+                <div class="quadrado"></div>
+                <div class="circulo"></div>
+            </div>
+
+        </section>
+        <section id="roda_pé">
+            <div id="informações">
+
+                <div class="informações-roda_pé-item ">
+                    <img src="imagens/Ativo 5.png" alt="informações">
+                </div>
+
+                <div class="informações-roda_pé-item ">
+                    <h4>LOCALIZAÇÃO:</h4>
+                    <h4> Avenida Lider N°236</h4>
+                    <br>
+                    <br>
+                    <h4>Redes sociais:</h4>
+                    <img src="imagens/Ativo 10.png" alt="/speranza">
+                    <br>
+                    <img src="imagens/Ativo 11.png" alt="@speranza_pizzarias">
+                    <div class="redes-sociais">
+                        <h4>/speranza</h4>
+                        <br>
+                        <h4>@speranza_pizzas</h4>
+                    </div>
+                </div>
+                <div class="informações-roda_pé-item ">
+                    <h4>TELEFONE:11 94930-5294</h4>
+                    <br>
+
+                    <h5 class="ma-r-m">ou</h5>
+                    <H4 class="ma-r">11 97322-4432</H4>
+                    <br>
+                    <br>
+                    <h4>EMAIL:</h4>
+                    <h4>speranza@hotmail.com</h4>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
